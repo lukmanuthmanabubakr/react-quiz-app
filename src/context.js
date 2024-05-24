@@ -109,7 +109,7 @@ const AppProvider = ({ children }) => {
     </AppContext.Provider>
   )
 }
-// make sure use
+// make sure use this aspect
 export const useGlobalContext = () => {
   return useContext(AppContext)
 }
